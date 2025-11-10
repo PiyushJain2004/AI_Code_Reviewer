@@ -102,6 +102,7 @@ AI_Code_Reviewer/
 ```
 ```
 
+
 💡 Enhancement Suggestions
 Add authentication to restrict API usage or save personalized feedback.
 
