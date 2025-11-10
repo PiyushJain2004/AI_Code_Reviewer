@@ -1,55 +1,53 @@
-🚀 AI Code Reviewer
-An AI-powered web application that automatically reviews, analyzes, and optimizes source code using Google's Gemini API. This tool provides developers with instant, real-time feedback to improve code quality, maintainability, and performance through an intuitive, syntax-highlighted interface.
+# 🚀 AI Code Reviewer
 
-🧩 Key Features
-🤖 Advanced AI Code Analysis
-Leverages the power of Google Gemini API to intelligently analyze code, detect potential issues, and suggest optimizations.
+An **AI-powered web application** that reviews and optimizes source code using **Google's Gemini API**.  
+Built with a **MERN-based architecture**, this project provides real-time feedback and syntax-highlighted insights to help developers improve code quality instantly.
 
-⚙️ Robust Full-Stack MERN Architecture
-Built with Node.js, Express.js, React.js, and MongoDB, ensuring scalability and maintainability.
+---
 
-🧠 Secure API Design
-Implements secure POST routes with CORS handling and environment variables for safe API key management.
+## 🧩 Features
 
-💡 Instant Real-Time Feedback
-Uses PrismJS for elegant, live syntax highlighting and detailed code review insights.
+- 🤖 **AI Integration:** Uses Google Gemini API to analyze and optimize code intelligently.  
+- ⚙️ **Full-Stack MERN Architecture:** Node.js, Express.js, React.js, and MongoDB-ready setup.  
+- 🧠 **Secure API Design:** POST-based backend routes with CORS and `.env` configuration.  
+- 💡 **Real-Time Feedback:** Code syntax highlighting with **PrismJS** for enhanced readability.  
+- 🌐 **Modern UI:** Built with **React + Vite + Tailwind CSS** for fast and responsive experience.
 
-🌐 Responsive Modern UI
-Designed with React + Vite + Tailwind CSS to deliver a fast, lightweight, and visually appealing user experience.
+---
 
-🔄 Continuous Integration
-Automated workflows using GitHub Actions streamline testing and deployment processes.
+## 🧠 Tech Stack
 
-🧰 Tech Stack
-Layer	Technologies & Tools
-Frontend	React, Vite, Tailwind CSS, PrismJS
-Backend	Node.js, Express.js
-AI Integration	Google Gemini API
-Database	MongoDB (ready for future enhancements)
-DevOps	Git, GitHub, GitHub Actions, Render
-Languages	JavaScript (ES6+)
-⚙️ Getting Started
-Follow these steps to set up and run the AI Code Reviewer locally:
+| Category | Tools / Libraries |
+|-----------|------------------|
+| **Frontend** | React, Vite, Tailwind CSS, PrismJS |
+| **Backend** | Node.js, Express.js |
+| **AI Integration** | Google Gemini API |
+| **Tools & Platforms** | Git, GitHub, Postman, Render |
+| **Languages** | JavaScript (ES6+) |
 
-1️⃣ Clone the Repo
-bash
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+```
 git clone https://github.com/PiyushJain2004/AI_Code_Reviewer.git
 cd AI_Code_Reviewer
+
+
+
 2️⃣ Install Dependencies
 Backend
-
-bash
 cd BackEnd
 npm install
 Frontend
 
-bash
 cd ../Frontend
 npm install
+
 3️⃣ Configure Environment Variables
 Create a .env file inside the BackEnd directory and add:
 
-text
 GEMINI_API_KEY=your_google_gemini_api_key_here
 PORT=8000
 ⚠️ Important: Never commit your real API keys. .gitignore is already configured to prevent this.
