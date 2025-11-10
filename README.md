@@ -1,0 +1,90 @@
+# 🚀 AI Code Reviewer
+
+An **AI-powered web application** that reviews and optimizes source code using **Google's Gemini API**.  
+Built with a **MERN-based architecture**, this project delivers real-time feedback and syntax-highlighted insights to help developers improve code quality instantly.
+
+---
+
+## 🧩 Features
+
+- 🤖 **AI Integration:** Utilizes **Google Gemini API** to analyze and optimize source code.
+- ⚙️ **Full-Stack MERN Architecture:** Node.js, Express.js, React.js, and MongoDB-ready structure.
+- 🧠 **Secure API Design:** POST-based backend routes with CORS and environment-based API key handling.
+- 💡 **Real-Time Code Feedback:** Syntax highlighting powered by **PrismJS**.
+- 🌐 **Modern UI:** Built using **React + Vite + Tailwind CSS** for speed and responsiveness.
+
+---
+
+## 🧠 Tech Stack
+
+| Category | Tools / Libraries |
+|-----------|------------------|
+| **Frontend** | React, Vite, Tailwind CSS, PrismJS |
+| **Backend** | Node.js, Express.js |
+| **AI Integration** | Google Gemini API |
+| **Tools & Platforms** | Git, GitHub, Postman, Render |
+| **Languages** | JavaScript (ES6+) |
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+git clone https://github.com/PiyushJain2004/AI_Code_Reviewer.git
+cd AI_Code_Reviewer
+
+2️⃣ Install Dependencies
+For backend:
+cd BackEnd
+npm install
+
+For frontend:
+cd ../Frontend
+npm install
+
+3️⃣ Configure Environment Variables
+Create a .env file in the BackEnd folder and add:
+GEMINI_API_KEY=your_google_gemini_api_key_here
+PORT=8000
+⚠️ Never commit your real API keys — they are already ignored via .gitignore.
+
+4️⃣ Run the Application
+Start the backend:
+cd BackEnd
+npm start
+Start the frontend:
+cd ../Frontend
+npm run dev
+Now open your browser at http://localhost:5173 to explore the app.
+
+## 📁 Project Structure
+
+AI_Code_Reviewer/
+├── BackEnd/
+│ ├── package.json
+│ ├── .env.example
+│ ├── server.js
+│ └── src/
+│ ├── app.js
+│ ├── controllers/
+│ │ └── ai.controller.js
+│ ├── routes/
+│ │ └── ai.routes.js
+│ └── services/
+│ └── ai.service.js
+│
+├── Frontend/
+│ ├── package.json
+│ ├── vite.config.js
+│ ├── index.html
+│ └── src/
+│ ├── main.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ └── assets/
+│
+├── .gitignore
+├── README.md
+├── LICENSE
+└── .github/
+└── workflows/ci.yml
