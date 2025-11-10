@@ -67,39 +67,42 @@ cd ../Frontend
 npm run dev
 Open your browser and navigate to http://localhost:5173 to experience the app.
 
-📁 Project Structure Overview
-text
+### 📁 Project Structure
+
+```
 AI_Code_Reviewer/
+│
 ├── BackEnd/
 │   ├── package.json
 │   ├── .env.example
-│   ├── server.js                   # Entry point for backend API server
+│   ├── server.js
 │   └── src/
-│       ├── app.js                 # Express app setup
+│       ├── app.js
 │       ├── controllers/
-│       │   └── ai.controller.js  # Handles API request logic
+│       │   └── ai.controller.js
 │       ├── routes/
-│       │   └── ai.routes.js       # Defines code review endpoints
+│       │   └── ai.routes.js
 │       └── services/
-│           └── ai.service.js      # Contains Google Gemini API interaction logic
+│           └── ai.service.js
 │
 ├── Frontend/
 │   ├── package.json
 │   ├── vite.config.js
 │   ├── index.html
 │   └── src/
-│       ├── main.jsx              # React entry point
-│       ├── App.jsx               # Main React component
-│       ├── App.css               # Styling
-│       └── assets/               # Static assets
+│       ├── main.jsx
+│       ├── App.jsx
+│       ├── App.css
+│       └── assets/
 │
 ├── .gitignore
 ├── README.md
 ├── LICENSE
 └── .github/
     └── workflows/
-        └── ci.yml               # GitHub Actions CI workflow
-
+        └── ci.yml
+```
+```
 
 💡 Enhancement Suggestions
 Add authentication to restrict API usage or save personalized feedback.
