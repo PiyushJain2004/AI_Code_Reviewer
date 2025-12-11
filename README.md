@@ -68,7 +68,6 @@ Open your browser and navigate to http://localhost:5173 to experience the app.
 
 
 ### 📁 Project Structure
-
 ```
 AI_Code_Reviewer/
 │
