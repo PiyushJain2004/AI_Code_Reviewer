@@ -33,7 +33,7 @@ Built with a **MERN-based architecture**, this project provides real-time feedba
 ```
 git clone https://github.com/PiyushJain2004/AI_Code_Reviewer.git
 cd AI_Code_Reviewer
-
+```
 
 
 2️⃣ Install Dependencies
@@ -68,6 +68,7 @@ Open your browser and navigate to http://localhost:5173 to experience the app.
 
 
 ### 📁 Project Structure
+
 ```
 AI_Code_Reviewer/
 │
@@ -100,9 +101,7 @@ AI_Code_Reviewer/
 └── .github/
     └── workflows/
         └── ci.yml
-        ```
-
-
+```
 
 💡 Enhancement Suggestions
 Add authentication to restrict API usage or save personalized feedback.
